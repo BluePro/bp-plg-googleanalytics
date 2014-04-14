@@ -1,4 +1,1 @@
-bp-plg-googleanalytics
-======================
-
-Joomla! Google Analytics plugin
+#Joomla! Google Analytics plugin

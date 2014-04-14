@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.5" type="plugin" group="system" method="upgrade">
+	<name>BluePro Google Analytics</name>
+	<creationDate>2013-10-23</creationDate>
+	<author>Ondřej Hlaváč (BluePro)</author>
+	<authorEmail>info@bluepro.cz</authorEmail>
+	<authorUrl>http://www.bluepro.cz</authorUrl>
+	<copyright>Ondřej Hlaváč 2013</copyright>
+	<license>GNU/GPL</license>
+	<version>3.0.0</version>
+	<description>Insetrs Google Analytics tracking script.</description>
+	<files>
+		<filename plugin="bpgoogleanalytics">bpgoogleanalytics.php</filename>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/plugins/system">
+			<fieldset name="basic">
+				<field name="tracker" type="text" default="" label="Tracker ID" description="Tracker ID provided by Google. The format is: UA-XXXXXXX-X" />
+				<field name="domain" type="text" default="" label="Domain name" description="Set your domain name if using on multiple subdomains" />
+			</fieldset>		
+		</fields>
+	</config>		
+</install>
